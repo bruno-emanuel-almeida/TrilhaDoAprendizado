@@ -1,0 +1,22 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+     /*margin: 100px;* Aplica 100 pixels a todos os lados;*/
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    /*margin-top: 100px; Aplica 100 pixels na margem de cima;
+    margin-right: 60px;  Aplica 60 pixels na margem direita;
+    margin-bottom: 120px;  Aplica 120 pixels na margem de baixo;
+    margin-left: 50px;  Aplica 50 pixels na margem esquerda;*/ 
+    margin: 100px 80px;
+    border-color: crimson;
+    /* ou podemos aplicar tudo de uma vez, como por exemplo bordr: 1px solid darkred;*/
+
+
+
+}
+
+h1{
+    background-color: deepskyblue;
+}
