@@ -1,0 +1,72 @@
+.imgcima
+{
+    position: absolute;
+    left: 35px;
+    padding-top: 10px;
+    height: 20px;
+}
+
+.textinho
+{
+    padding-left: 1300px;
+    padding-top: 0px;
+}
+.hcs
+{
+    padding-left: 1200px;
+    margin-top: -30px;
+}
+.imggrande
+{
+    position: absolute;
+    top: 91px;
+    left: 300px;
+}
+
+.text{
+    position: absolute;
+    top: 580px;
+    left: 80px;
+}
+
+p
+{
+    font-size: medium;
+}
+
+.jhg
+{
+    position: absolute;
+    bottom: 0px;
+    left: 690px;
+}
+
+
+h1
+{
+   background-color: lightgray;
+}
+
+.txtct
+{
+    position: absolute;
+    top: 150px;   
+    left: 50px;
+    background-color: lightgrey;
+    padding-left: 80x;
+    
+}
+.contato
+{
+    position: absolute;
+    top: 320px;
+    left: 60px;
+    
+    
+}
+
+.asdasd
+{
+    position: relative;
+    left: 450px;
+}

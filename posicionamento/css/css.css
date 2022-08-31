@@ -1,0 +1,54 @@
+div
+{
+    height: 150px;
+    width: 400px;
+    margin: 1px;
+    padding: 100px;
+}
+
+body
+    {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    h2{
+        color: red
+    }
+
+    .box1{
+        background-color: deepskyblue;
+        position: static; /* Não permite reposicionar o box */
+    }
+
+    .box2{
+        background-color: brown;
+        position: relative; /* Altera o posicionamento em relação onde o box foi defeinido*/
+        left: 600px;
+        bottom: 351px;
+        
+    }
+
+    .box3
+    {
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 7px;     
+        left: 1208px;
+    }
+
+    .box4
+    {
+        background-color: firebrick;
+        position:fixed;
+        top: 300px;
+       
+    }
+    .box5
+    {
+        background-color: lavender;  /* Acompanha a tela de acordo com a rolagem */
+        position: sticky;
+        bottom: 0px;
+        left: 610px;
+
+    }
