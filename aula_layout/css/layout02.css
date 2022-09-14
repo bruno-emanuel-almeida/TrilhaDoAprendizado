@@ -1,0 +1,90 @@
+body
+{
+    margin: 0px;
+    background: linear-gradient(to right, #070808, #2c302f );
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+}
+
+header
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    margin-top: 10px;
+    position: relative;
+    left: 50px;
+}
+
+.logo img{
+
+    width: 60%;
+    padding-top: 30px;
+  
+
+}
+
+
+.navegacao
+{
+
+    overflow: hidden;
+}
+
+.navegacao a{
+
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+    color: deepskyblue;
+}
+
+.navegacao a:hover{
+    color: #2c302f;
+    
+}
+
+.conteudo
+{
+    background-color: whitesmoke;
+    color: #070808;
+    text-align: justify;
+    margin: 10px  5px 25px 1px;
+    padding: 15px;
+    box-shadow: 10px 10px 10px grey;
+    float: left;
+
+}
+
+.principal
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 45px;
+}
+
+.rodape
+{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+}
+.lateral
+{
+    width: 40%;
+}
+.central
+{
+    width:90%;
+}
+
+
+@media screen and (max-width:600px){ /*responsividade: quando o navegador atingir certa resolução, ele mudará os aspectos contidos aqui dentro*/
+
+    .principal, .conteudo, .body /*definir os escopos a serem alterados*/ {
+        flex-direction: column;
+        padding: 0px;
+    }
+}
